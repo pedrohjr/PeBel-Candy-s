@@ -1,0 +1,80 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+header{
+    background-color:#a14727;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 126px;
+    right:0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+nav a:hover{
+    color: rgb(241, 101, 218);
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+}
+.degrade{
+    background: linear-gradient(#fefefe, #583838);
+}
+.principal{
+    padding: 3em 0;
+    background-color: #bbbbbb;
+    background: linear-gradient(white,#583838);
+}
+.teste{
+    width: 940px;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 37px;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px #583838;
+    font-family: 'Nosifer', sans-serif;
+}
+.paragrafo{
+    font-size: 24px;
+    font-family: 'Kurale', serif;
+ 
+    
+    }
+.video{
+    width: 560px;
+    margin: 3em auto;
+}
+
+footer{
+    text-align: center;
+    background: url(./bg.jpg);
+    padding: 40px 0;
+}
+.cp1{
+    margin: 0 100px 0 0;
+}
+.copy{
+    color: black;
+    font-size: 17px;
+    margin: 20px 0 0 20px;
+}
